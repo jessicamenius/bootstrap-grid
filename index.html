@@ -72,6 +72,7 @@
       </div>
 
       <!-- these are examples of unequal column sizing-->
+      <h3>Changing Column Sizes</h3>
       <p class="lead">These are 3 unequal sized columns.</p>
       <div class="row">
         <div class="col-md-3"></div>
@@ -88,16 +89,60 @@
 
       <h3>Mobile Responsiveness</h3>
       <!-- default is width 100% -->
+      <p >Changing view based on mobile screens.</p>
       <div class="row">
-        <div class="col-sm-12 col-md-6"></div>
-        <div class="col-sm-12 col-md-12"></div>
+        <div class="col-md-8 cold-md-16"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 cl-lg-4"></div>
+        <div class="col-sm-12 col-md-6 cl-lg-8"></div>
       </div>
 
       <div class="row">
         <div class="col-sm-6 col-md-8"></div>
         <div class="col-sm-6 col-md-4"></div>
       </div>
+
+      <!-- ofsetting -->
+      <p>Offset a single row.</p>
+      <div class="row"></div>
+      <div class="class=col-sml-8 offset-sm-2"></div>
     </div>
+  </div>
+
+<br>
+
+    <!-- card practice -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <!-- on a small screen screen should take up 8 out of 12 spaces -->
+    <!-- on a md it should take up 12 spaces -->
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
